@@ -30,7 +30,7 @@ the total value of all collected loot.
 
 ## Author
 
-Your Name
+Shyliah Heads
 
 ## Course
 
