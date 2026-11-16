@@ -1,0 +1,130 @@
+
+/* General page styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1eb;
+    color: #292929;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #342b24;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Main content */
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Sections */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #493b2d;
+    margin-top: 0;
+}
+
+/* Form fields */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #8b6038;
+    outline-offset: 2px;
+}
+
+/* Button */
+
+button {
+    background-color: #795333;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #563a25;
+}
+
+button:focus-visible {
+    outline: 3px solid #292929;
+    outline-offset: 3px;
+}
+
+/* Loot list */
+
+#lootList {
+    padding-left: 25px;
+}
+
+#lootList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Messages */
+
+#message {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Total */
+
+#totalValue {
+    font-size: 22px;
+    font-weight: bold;
+    color: #795333;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+}
