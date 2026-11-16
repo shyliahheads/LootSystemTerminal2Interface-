@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple loot tracking application built with JavaScript.">
+    <meta name="author" content="Your Name">
+    <title>Dungeon Loot System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dungeon Loot System</h1>
+        <p>Keep track of the treasures collected on your adventure.</p>
+    </header>
+
+    <main>
+
+        <section class="loot-form">
+            <h2>Add New Loot</h2>
+
+            <div class="form-group">
+                <label for="lootName">Loot Item Name:</label>
+                <input
+                    type="text"
+                    id="lootName"
+                    placeholder="Example: Flaming Sword"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="lootValue">Loot Item Value:</label>
+                <input
+                    type="number"
+                    id="lootValue"
+                    placeholder="Enter item value"
+                    step="any"
+                >
+            </div>
+
+            <button type="button" id="addLoot">Add Loot</button>
+
+            <p id="message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="loot-display">
+            <h2>Collected Loot</h2>
+
+            <ul id="lootList">
+                <li>No loot has been added yet.</li>
+            </ul>
+        </section>
+
+        <section class="total-section">
+            <h2>Total Loot Value</h2>
+            <p id="totalValue">Total: 0</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>DEV 109 - CA10 Event-Driven Programming</p>
+    </footer>
+
+</body>
+</html>
